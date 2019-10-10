@@ -7,5 +7,5 @@ PyQt5 / PySide2 continuous deployment demo. Build PyQt application on macOS and 
 ## Usage
 
 - Fork this project and install travis-ci on your project.
-- Set API_AUTH_TOKEN variable in travis-ci.
+- Generate a personal access token in GitHub and set GITHUB_OATU_TOKEN variable in travis-ci project setting.
 - Create a tag then travis-ci will build your app and push binaries to release.
