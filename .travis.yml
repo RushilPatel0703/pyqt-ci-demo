@@ -16,7 +16,7 @@ jobs:
       sudo: required
       if: tag IS present
       before_deploy:
-        - tar -cvf dist/CNKI-Converter-macOS.app.tar dist/CNKI-Converter-darwin.app
+        - tar -cvf dist/pyqt-ci-demo.app.tar dist/pyqt-ci-demo.app
       deploy:
         provider: releases
         api_key: $GITHUB_OATU_TOKEN
